@@ -1,0 +1,37 @@
+.design_title {
+  width: 674px;
+  padding-bottom: 50px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #1c2323;
+}
+.design-text {
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #404242;
+}
+.button_light-green {
+  border-radius: 20px 20px 20px 0px;
+}
+.design_background_img {
+  border-radius: 120px;
+  width: 834px;
+  height: 782px;
+}
+.design__block {
+  display: flex;
+  flex-direction: column;
+}
+.design_block_img {
+  display: flex;
+  background-image: url(/img/design/02.png);
+}
+.design__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
