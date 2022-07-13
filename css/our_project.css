@@ -1,0 +1,65 @@
+.our_project_block_title {
+  display: flex;
+  width: 515px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 86px;
+}
+.our_project_title {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #1c2323;
+}
+.our_project_block_title_text {
+  font-weight: 400;
+  margin-bottom: 51px;
+  font-size: 30px;
+  line-height: 45px;
+  color: #404242;
+}
+.our_project_block_underline_1 {
+  width: 135px;
+  margin-bottom: 15px;
+  height: 0px;
+  border: 5px solid #58a9a5;
+}
+.our_project__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our_project_block_cards {
+  display: flex;
+  width: 1608px;
+}
+.our_project_cards_title {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 40px;
+  line-height: 60px;
+  color: #58a9a5;
+  width: 453px;
+}
+.our_project_cards_text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+  margin-bottom: 35px;
+}
+.our_project_cards {
+  width: 450px;
+}
+.our_project_block_cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card-revers img{
+margin-bottom: 35px;
+}
+.our_project{
+  margin-bottom: 215px;
+}
