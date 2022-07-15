@@ -30,12 +30,6 @@
   line-height: 38px;
   color: #404242;
 }
-#menu_list_link {
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 38px;
-  color: #58a9a5;
-}
 .menu_list a {
   padding-right: 85px;
   font-weight: 400;
@@ -43,16 +37,28 @@
   line-height: 38px;
   color: #404242;
 }
-
-.menu_list a:first-child::after {
+.menu_list li {
+  position: relative;
+}
+.menu_list a:hover {
+  transition: 0.5s;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 38px;
+  color: #58a9a5;
+}
+.menu_list a:hover::after {
   content: " ";
   position: absolute;
+  transition: 0.5s;
   width: 48px;
   height: 6px;
-  left: 682px;
-  top: 142px;
+  top: 50px;
   background: #fec62d;
   border-radius: 21px;
+  right: 47%;
+  transform: translateX(-50%);
 }
 .button {
   display: flex;
